@@ -1,0 +1,25 @@
+.recap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .recap-title, .recap-score {
+        font-size: 4rem;
+        color: #1565c0;
+    }
+
+    .recap-score {
+        margin-top: 2rem;
+    }
+
+    a {
+        width: 30%;
+        margin-top: 2rem !important;
+
+        button {
+            width: 100%;
+        }
+    }
+}

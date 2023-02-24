@@ -1,0 +1,31 @@
+.game {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .game-score {
+        margin-bottom: 1rem;
+    }
+
+    .game-countdown, .game-score {
+        font-size: 4rem;
+        color: #1565c0;
+    }
+
+    .game-multiplication {
+        margin: 5rem 0;
+        font-size: 6rem;
+        color: #1565c0;
+    }
+
+    .game-result {
+        width: 30%;
+    }
+
+    button {
+        margin-top: 2rem;
+        width: 30%;
+    }
+}

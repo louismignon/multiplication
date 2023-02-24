@@ -1,0 +1,32 @@
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .home-form-number, .home-form-type, .home-form-name {
+        width: 30%;
+    }
+
+    .home-form-number {
+        button {
+            width: 33.33%;
+        }
+    }
+
+    .home-form-type {
+        button {
+            width: 50%;
+        }
+    }
+
+    .home-form-name {
+        margin-top: 2rem;
+    }
+
+    button {
+        width: 30%;
+        margin-top: 2rem !important;
+    }
+}
